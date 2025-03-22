@@ -1,0 +1,94 @@
+[
+    {
+        "Amount of Players": 2,
+        "Bank Status": {
+            "Hotels Left": 12,
+            "Houses Left": 12
+        },
+        "Current Player": 0,
+        "Players Status": {
+            "Player 0": {
+                "Belongings": {
+                    "Property0": {
+                        "hotels": 0,
+                        "houses": 0,
+                        "name": "Whitechapel\nRoad",
+                        "type": "Street"
+                    },
+                    "Property1": {
+                        "hotels": 0,
+                        "houses": 0,
+                        "name": "Pentonville\nRoad",
+                        "type": "Street"
+                    },
+                    "Property2": {
+                        "hotels": 0,
+                        "houses": 0,
+                        "name": "Pall Mall",
+                        "type": "Street"
+                    },
+                    "Property3": {
+                        "hotels": 0,
+                        "houses": 0,
+                        "name": "Vine\nStreet",
+                        "type": "Street"
+                    },
+                    "Property4": {
+                        "hotels": 0,
+                        "houses": 0,
+                        "name": "Leicester\nSquare",
+                        "type": "Street"
+                    },
+                    "Property5": {
+                        "hotels": 0,
+                        "houses": 0,
+                        "name": "Park Lane",
+                        "type": "Street"
+                    },
+                    "Property6": {
+                        "name": "Water Works",
+                        "type": "Company"
+                    }
+                },
+                "Current Position": 3,
+                "balance": 1850,
+                "figure": 0,
+                "in jail?": false,
+                "rounds in jail": 0
+            },
+            "Player 1": {
+                "Belongings": {
+                    "Property0": {
+                        "hotels": 0,
+                        "houses": 0,
+                        "name": "Marlborough\nStreet",
+                        "type": "Street"
+                    },
+                    "Property1": {
+                        "hotels": 0,
+                        "houses": 0,
+                        "name": "Piccadilly",
+                        "type": "Street"
+                    },
+                    "Property2": {
+                        "name": "Kings\nCross\nStation",
+                        "type": "Station"
+                    },
+                    "Property3": {
+                        "name": "Fenchurch St\nStation",
+                        "type": "Station"
+                    },
+                    "Property4": {
+                        "name": "Liverpool\nStreet\nStation",
+                        "type": "Station"
+                    }
+                },
+                "Current Position": 9,
+                "balance": 1985,
+                "figure": 1,
+                "in jail?": false,
+                "rounds in jail": 0
+            }
+        }
+    }
+]

@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/board.bile.images">
+        <file>Monopolylogo.png</file>
+        <file>shipToken2.png</file>
+        <file>wheelbarrowToken2.png</file>
+        <file>bootToken2.png</file>
+        <file>cannonToken2.png</file>
+        <file>carToken2.png</file>
+        <file>hatToken2.png</file>
+    </qresource>
+    <qresource prefix="/Json_files">
+        <file>tiles.json</file>
+        <file>Chance.json</file>
+        <file>CommunityChest.json</file>
+    </qresource>
+</RCC>

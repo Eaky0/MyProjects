@@ -1,0 +1,172 @@
+{
+    "Amount of Players": 6,
+    "Bank Status": {
+        "Hotels Left": 12,
+        "Houses Left": 12
+    },
+    "Current Player": 4,
+    "Players Status": {
+        "Player 0": {
+            "Belongings": {
+                "Property0": {
+                    "Mortgaged?": false,
+                    "hotels": 0,
+                    "houses": 0,
+                    "name": "Trafalgar\nSquare",
+                    "type": "Street"
+                },
+                "Property1": {
+                    "Mortgaged?": false,
+                    "name": "Kings\nCross\nStation",
+                    "type": "Station"
+                },
+                "Property2": {
+                    "Mortgaged?": false,
+                    "name": "Marylebone\nStation",
+                    "type": "Station"
+                }
+            },
+            "balance": 1030,
+            "bankrupt?": false,
+            "cards": [
+            ],
+            "current position": 20,
+            "in jail?": false,
+            "rounds in jail": 0
+        },
+        "Player 1": {
+            "Belongings": {
+                "Property0": {
+                    "Mortgaged?": false,
+                    "hotels": 0,
+                    "houses": 0,
+                    "name": "Marlborough\nStreet",
+                    "type": "Street"
+                },
+                "Property1": {
+                    "Mortgaged?": false,
+                    "name": "Electric\nCompany",
+                    "type": "Company"
+                }
+            },
+            "balance": 1197,
+            "bankrupt?": false,
+            "cards": [
+            ],
+            "current position": 22,
+            "in jail?": false,
+            "rounds in jail": 0
+        },
+        "Player 2": {
+            "Belongings": {
+                "Property0": {
+                    "Mortgaged?": false,
+                    "hotels": 0,
+                    "houses": 0,
+                    "name": "The Angel,\nIslington",
+                    "type": "Street"
+                },
+                "Property1": {
+                    "Mortgaged?": false,
+                    "hotels": 0,
+                    "houses": 0,
+                    "name": "Pall Mall",
+                    "type": "Street"
+                },
+                "Property2": {
+                    "Mortgaged?": false,
+                    "hotels": 0,
+                    "houses": 0,
+                    "name": "Vine\nStreet",
+                    "type": "Street"
+                },
+                "Property3": {
+                    "Mortgaged?": false,
+                    "name": "Fenchurch St\nStation",
+                    "type": "Station"
+                }
+            },
+            "balance": 1085,
+            "bankrupt?": false,
+            "cards": [
+            ],
+            "current position": 15,
+            "in jail?": false,
+            "rounds in jail": 0
+        },
+        "Player 3": {
+            "Belongings": {
+                "Property0": {
+                    "Mortgaged?": false,
+                    "hotels": 0,
+                    "houses": 0,
+                    "name": "Pentonville\nRoad",
+                    "type": "Street"
+                },
+                "Property1": {
+                    "Mortgaged?": false,
+                    "hotels": 0,
+                    "houses": 0,
+                    "name": "Fleet\nStreet",
+                    "type": "Street"
+                },
+                "Property2": {
+                    "Mortgaged?": false,
+                    "hotels": 0,
+                    "houses": 0,
+                    "name": "Leicester\nSquare",
+                    "type": "Street"
+                },
+                "Property3": {
+                    "Mortgaged?": false,
+                    "name": "Liverpool\nStreet\nStation",
+                    "type": "Station"
+                }
+            },
+            "balance": 500,
+            "bankrupt?": false,
+            "cards": [
+                1
+            ],
+            "current position": 2,
+            "in jail?": false,
+            "rounds in jail": 0
+        },
+        "Player 4": {
+            "Belongings": {
+                "Property0": {
+                    "Mortgaged?": false,
+                    "hotels": 0,
+                    "houses": 0,
+                    "name": "Northumber-\nland\nAvenue",
+                    "type": "Street"
+                },
+                "Property1": {
+                    "Mortgaged?": false,
+                    "hotels": 0,
+                    "houses": 0,
+                    "name": "Mayfair",
+                    "type": "Street"
+                }
+            },
+            "balance": 801,
+            "bankrupt?": false,
+            "cards": [
+            ],
+            "current position": 12,
+            "in jail?": false,
+            "rounds in jail": 0
+        },
+        "Player 5": {
+            "Belongings": {
+            },
+            "balance": 1411,
+            "bankrupt?": false,
+            "cards": [
+            ],
+            "current position": 25,
+            "in jail?": false,
+            "rounds in jail": 0
+        }
+    }
+}

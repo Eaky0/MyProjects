@@ -1,0 +1,84 @@
+{
+    "0" : {
+        "chore" : "Advance to Go",
+        "advancement" : "Start"
+    }
+,
+    "1":{
+        "chore" : "Advance to Trafalgar Square.\n If you pass Go, collect £200",
+        "advancement": "Trafalgar Square"
+    }
+,
+    "2":{
+        "chore" : "Advance to Mayfair",
+        "advancement" : "Mayfair"
+    }
+,
+    "3":{
+        "chore" : "Advance to Pall Mall.\nIf you pass Go, collect £200",
+        "advancement" : "Pall Mall"
+    }
+,
+    "4":{
+        "chore": "Advance to the nearest Station. \n If unowned, you may buy it from the Bank.\nIf owned, pay wonder twice the rental to which they are otherwise entitled",
+        "advancement": "Station"
+    }
+,
+    "5":{
+        "chore" : "Advance token to nearest Company.\n If unowned, you may buy it from the Bank.\n If owned, throw dice and pay owner a total ten times amount thrown.",
+        "advancement": "Company"
+    }
+,
+    "6":{
+        "chore": "Bank pays you dividend of £50",
+        "payment": 50,
+        "type": "Collect"
+    }
+,
+    "7":{
+        "chore": "Get Out of Jail Free"
+    }
+,
+    "8":{
+        "chore": "Go Back 3 Spaces"
+    }
+,
+    "9":{
+        "chore": "Go to Jail. Go directly to Jail,\ndo not pass Go, do not collect £200",
+        "advancement": "Jail"
+    }
+,
+    "10": {
+        "chore" : "Make general repairs on all your property.\nFor each house pay £25.\nFor each hotel pay £100",
+        "payment": [25, 100],
+        "type": "Pay"
+    }
+,
+    "11": {
+        "chore" : "Speeding fine £15",
+        "payment": 15,
+        "type": "Pay"
+    }
+,
+    "12": {
+        "chore" : "Take a trip to Kings Cross Station.\nIf you pass Go, collect £200",
+        "advancement" : "Kings Cross Station"
+    }
+,
+    "13" : {
+        "chore" : "You have been elected Chairman of the Board.\nPay each player £50",
+        "payment" : 50,
+        "type" : "Pay"
+    }
+,   
+    "14" : {
+        "chore" : "Your building loan matures.\nCollect £150",
+        "payment" : "150",
+        "type" : "Collect"
+    }
+,
+    "15" : {
+        "chore": "Advance to the nearest Station. \nIf unowned, you may buy it from the Bank.\nIf owned, pay wonder twice the rental to which they are otherwise entitled",
+        "advancement": "Station"
+    }
+}
