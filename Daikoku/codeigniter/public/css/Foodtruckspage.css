@@ -1,0 +1,46 @@
+#SectionText{
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Savebutton{
+    color:#BBA32F;
+    font-family: Impact;
+    font-style: italic;
+    border-radius: 0;
+}
+
+#SearchSection{
+    background-color: #BBA32F;
+    padding:30px;
+}
+
+
+.accordion-item{
+    border:none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
+    color:black;
+
+}
+
+.form-check-input:focus{
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
+}
+
+#FoodTruckSection{
+    padding-bottom: 8px;
+    background-color: #3A3A3A;
+}
+
+.FoodTruckCard{
+    max-height: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}

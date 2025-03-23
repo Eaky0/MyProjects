@@ -1,0 +1,36 @@
+
+LIJST MET WEBSITE VOORWAARDEN
+
+
+1. een food truck eigenaar heeft een eigen profiel bestaande uit minstens een of meerdere foto's, een
+korte beschrijving, huidige en toekomstige locaties van de food truck, contactgegevens en andere
+(persoonlijke) gegevens.  DONE
+
+2. een food truck eigenaar heeft het volledige beheer over zijn food truck profiel waaronder minstens
+het toevoegen, bewerken en verwijderen van voedselbereidingen. DONE
+
+3. voor iedere voedselbereiding wordt er minstens een titel, een beschrijving, ingrediënten, de prijs en
+recensies bijgehouden. Voorzie ook de mogelijkheid om foto's en video's aan de beschrijving toe te
+voegen. DONE
+
+4. voorzie verschillende soorten voedselbereidingen DONE
+
+5. een food truck eigenaar kan statistieken van zijn producten bijhouden (bv. aantal bestellingen). DONE
+
+6. een consument moet eenmalig een profiel aanmaken en kan daarna de food trucks bekijken en
+bereidingen bestellen. DONE
+
+7. een consument kan (een) foodtruck(s) zoeken die voldoe(t)(n) aan een aantal criteria (bv. aanbod,
+locatie, . . . ). DONE
+
+8. een consument kan meerdere producten van een food truck in zijn winkelmandje stoppen en wordt
+op de hoogte gehouden wanneer de bereiding van de producten bijna klaar is of klaar is om opgepikt
+te worden. DONE
+
+9. nadat een consument de bestelling heeft opgehaald, krijgt hij een notificatie waarin gevraagd wordt
+om de bestelling te beoordelen. Dit gebeurt a.d.h.v. een korte review en een rating. DONE
+
+10. consumenten kunnen de eigenaar ook contacteren d.m.v. een messaging systeem. DONE
+
+11. als de consument een mobiele browser gebruikt, wordt hij omgeleid naar een mobiele versie van de
+website. DONE

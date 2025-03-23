@@ -1,0 +1,20 @@
+#HeaderSection{
+    background-color: #BBA32F;
+    padding: 30px;
+}
+
+#IntroSection{
+    background-color:#3A3A3A;
+}
+
+#IntroText{
+    padding: 30px;
+}
+
+#FAQSection{
+    background-color: #3A3A3A;
+}
+
+#FAQText{
+    padding:20px;
+}

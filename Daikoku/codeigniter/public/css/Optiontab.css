@@ -1,0 +1,45 @@
+h1, h2, h3, h4, h5, h6, p, label{
+    font-family: Impact;
+    font-style: italic;
+    word-wrap: break-word;
+}
+
+#Optionanchor {
+    font-family:impact;
+    font-style: italic;
+}
+
+#Optionanchor a{
+    text-decoration: none;
+    color: #BBA32F;
+}
+
+
+#ProfileOptionanchor{
+    font-family:impact;
+    font-style: italic;
+
+}
+
+#ProfileOptionanchor a{
+    text-decoration: none;
+    color: #BBA32F;
+}
+
+.SearchFunctions{
+    color:#BBA32F;
+    font-family: Impact;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+#NavPfpSettings{
+    width:60px;
+    height:60px; 
+    border-radius:50%;
+}
+
+.body{
+    background-color: #BBA32F;
+}
+

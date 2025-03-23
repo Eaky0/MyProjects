@@ -1,0 +1,24 @@
+# Ignore system files
+.DS_Store
+*.log
+*.swp
+*.swo
+
+# Ignore CodeIgniter cache/logs
+Daikoku/codeigniter/cache/*
+Daikoku/codeigniter/logs/*
+
+# Ignore dependencies
+Daikoku/vendor/
+Daikoku/node_modules/
+
+# Ignore environment & config files
+Daikoku/.env
+Daikoku/application/config/config.php
+Daikoku/application/config/database.php
+
+# Ignore MySQL database files (if storing locally)
+Daikoku/mysql/
+
+# Ignore Docker override files
+Daikoku/docker-compose.override.yml

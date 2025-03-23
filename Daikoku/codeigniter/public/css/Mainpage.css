@@ -1,0 +1,52 @@
+#Top8Section{
+    padding-bottom: 10px;
+}
+
+.Top8Card{
+    max-height: 100%;
+    margin-bottom: 10px;
+}
+
+#SponsorCol{
+    padding-bottom: 30px;
+}
+
+.EventCard{
+    width: 900px;
+    max-height: 200px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+#Searchbutton{
+    background-color: #3A3A3A;
+}
+
+.WelcomeTab{
+    background-color: #BBA32F;
+    padding:20px;
+}
+
+#Sponsortab{
+    padding: 30px;
+    border-bottom: solid;
+    border-color:#BBA32F;
+    background-color:#3A3A3A;
+    color:white;
+}
+
+#InfoTab{
+    background-color: #3A3A3A;
+    color:#BBA32F;
+    padding:20px;
+}
+
+
+
+#FoodTruckhl{
+    background-color: #3A3A3A;
+}
+
+
+

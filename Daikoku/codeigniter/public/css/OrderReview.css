@@ -1,0 +1,15 @@
+#HeaderSection{
+    background-color: #BBA32F;
+    padding: 30px;
+}
+
+#OrderReviewSection{
+    background-color: #3a3a3a;
+    color:white;
+}
+
+.unclickable{
+    pointer-events: none;
+    opacity: 1;
+    cursor: not-allowed;
+}

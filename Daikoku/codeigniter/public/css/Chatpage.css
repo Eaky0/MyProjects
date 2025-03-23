@@ -1,0 +1,54 @@
+#HeaderSection{
+    background-color: #BBA32F;
+    padding: 30px;
+
+}
+
+.messageboxYou{
+    background-color: rgb(5, 156, 169);
+    word-wrap: break-word;
+    overflow: auto;
+    color: white;
+    hyphens: auto;
+    margin-left: 50%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.messageboxThem{
+    background-color: rgb(130, 4, 247);
+    word-wrap: break-word;
+    overflow: auto;
+    color: white;
+    hyphens: auto;
+    margin-right: 50%;
+    margin-top: 1%;
+    margin-bottom: 1%;    
+}
+
+.ContactText{
+    word-wrap: break-word;
+    overflow: auto;
+    hyphens: auto;
+}
+
+#ChatSection{
+    background-color: #3A3A3A;
+}
+
+
+#ContactNameSection{
+    height:100px;
+}
+
+#InputSection{
+    height:100px;
+}
+
+#Messages{
+    height: 530px;
+}
+
+#Contacts{
+    height: 600px;
+}

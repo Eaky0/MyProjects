@@ -1,0 +1,44 @@
+#HeaderSection{
+    background-size: cover;
+}
+
+
+#SectionText{
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#IntroSection{
+    background-color: #BBA32F;
+}
+
+#IntroText{
+    padding: 30px;
+}
+
+#UpcomingEventsSection{
+    background-color: #3A3A3A;
+}
+
+#PreviousEventsSection{
+    background-color: #BBA32F;
+}
+
+#UpcomingEventsText{
+    color: white;
+    padding: 10px;
+}
+
+#PreviousEventsText{
+    padding: 10px;
+}
+
+.EventCard{
+    width: 600px;
+    max-height: 300px;
+    margin: 30px;
+    text-align: center;
+
+}

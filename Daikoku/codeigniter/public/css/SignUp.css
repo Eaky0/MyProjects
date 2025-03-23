@@ -1,0 +1,21 @@
+#ProfileType input{
+    width:100px;
+}
+
+#DecisionMaking p{
+    display: flex;
+    white-space-collapse:break-spaces;
+}
+
+
+
+.FormTab{
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    color:#BBA32F;
+    font-family:impact;
+    font-style: italic;
+    padding-top: 40px;
+}
+
