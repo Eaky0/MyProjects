@@ -1,4 +1,4 @@
-# CG-OpenGL-Project
+# CG-OpenGL-Project: Enderman simulator
 
 What's up, gamers!,
 
