@@ -1,8 +1,3 @@
-{
-    "trusteddevices": {
-        "devices": {}
-    },
-    "Root Paths": {
-        "Paths": {}
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:959708ada69c5b7950219e4a95c732b70edd9cc560315a1334689591cdfc8bdc
+size 109

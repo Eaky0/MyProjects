@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="eaUwXE" name="SimpleStep" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              headerPath="&#10;" defines="JUCE_MODAL_LOOPS_PERMITTED=1&#10;">
+  <MAINGROUP id="ebg8TF" name="SimpleStep">
+    <GROUP id="{1F54CDD9-7849-C141-B21A-552262ECEF75}" name="Template"/>
+    <GROUP id="{C8CAE34A-9C40-B59C-8A50-DC16C7EBFA57}" name="Images">
+      <FILE id="SWRm8l" name="lock_closed.png" compile="0" resource="1" file="resource/lock_closed.png"/>
+      <FILE id="ugtV5G" name="lock_open.png" compile="0" resource="1" file="resource/lock_open.png"/>
+      <FILE id="YA09GP" name="logo.png" compile="0" resource="1" file="resource/logo.png"/>
+      <FILE id="v0VfHZ" name="pause.png" compile="0" resource="1" file="resource/pause.png"/>
+      <FILE id="qxQB12" name="play.png" compile="0" resource="1" file="resource/play.png"/>
+      <FILE id="j4R9Nz" name="recording.jpg" compile="0" resource="1" file="resource/recording.jpg"/>
+    </GROUP>
+    <GROUP id="{0C6C8A1F-85C9-6B63-33C0-603560FD9E21}" name="Source">
+      <FILE id="TIdTZo" name="AbstractObservable.h" compile="0" resource="0"
+            file="Source/AbstractObservable.h"/>
+      <FILE id="L2kJsQ" name="AbstractObserver.h" compile="0" resource="0"
+            file="Source/AbstractObserver.h"/>
+      <FILE id="DJMzEn" name="Algorithm.cpp" compile="1" resource="0" file="Source/Algorithm.cpp"/>
+      <FILE id="lvSSIt" name="Algorithm.h" compile="0" resource="0" file="Source/Algorithm.h"/>
+      <FILE id="Z3isXw" name="BinaryData.cpp" compile="1" resource="0" file="Source/BinaryData.cpp"/>
+      <FILE id="ZFHGmP" name="BinaryData.h" compile="0" resource="0" file="Source/BinaryData.h"/>
+      <FILE id="DS0G6O" name="CustomDirectoryComponent.cpp" compile="1" resource="0"
+            file="Source/CustomDirectoryComponent.cpp"/>
+      <FILE id="IFr8gQ" name="CustomDirectoryComponent.h" compile="0" resource="0"
+            file="Source/CustomDirectoryComponent.h"/>
+      <FILE id="Oyrmh8" name="DelayAlgorithm.cpp" compile="1" resource="0"
+            file="Source/DelayAlgorithm.cpp"/>
+      <FILE id="zkYi1G" name="DelayAlgorithm.h" compile="0" resource="0"
+            file="Source/DelayAlgorithm.h"/>
+      <FILE id="EJj3b4" name="FilterManager.cpp" compile="1" resource="0"
+            file="Source/FilterManager.cpp"/>
+      <FILE id="XsdXA4" name="FilterManager.h" compile="0" resource="0" file="Source/FilterManager.h"/>
+      <FILE id="X1uQGb" name="GlobalSettingComponent.cpp" compile="1" resource="0"
+            file="Source/GlobalSettingComponent.cpp"/>
+      <FILE id="YuU04n" name="GlobalSettingComponent.h" compile="0" resource="0"
+            file="Source/GlobalSettingComponent.h"/>
+      <FILE id="yFvatc" name="GraphComponent.cpp" compile="1" resource="0"
+            file="Source/GraphComponent.cpp"/>
+      <FILE id="g86ane" name="GraphComponent.h" compile="0" resource="0"
+            file="Source/GraphComponent.h"/>
+      <FILE id="kzeBjf" name="GridInfoPanel.cpp" compile="1" resource="0"
+            file="Source/GridInfoPanel.cpp"/>
+      <FILE id="zqeujV" name="GridInfoPanel.h" compile="0" resource="0" file="Source/GridInfoPanel.h"/>
+      <FILE id="tNB2z5" name="GridSettingComponent.cpp" compile="1" resource="0"
+            file="Source/GridSettingComponent.cpp"/>
+      <FILE id="z2vHgb" name="GridSettingComponent.h" compile="0" resource="0"
+            file="Source/GridSettingComponent.h"/>
+      <FILE id="kvqbNH" name="IOClass.cpp" compile="1" resource="0" file="Source/IOClass.cpp"/>
+      <FILE id="cHiRYZ" name="IOClass.h" compile="0" resource="0" file="Source/IOClass.h"/>
+      <FILE id="z393MU" name="LoadingComponent.cpp" compile="1" resource="0"
+            file="Source/LoadingComponent.cpp"/>
+      <FILE id="vK4XRO" name="LoadingComponent.h" compile="0" resource="0"
+            file="Source/LoadingComponent.h"/>
+      <FILE id="j44plb" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="C4tA7a" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="RkOF4t" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="oxaJFt" name="MenuView.cpp" compile="1" resource="0" file="Source/MenuView.cpp"/>
+      <FILE id="MsqBT9" name="MenuView.h" compile="0" resource="0" file="Source/MenuView.h"/>
+      <FILE id="qYvWMq" name="OrganicManager.cpp" compile="1" resource="0"
+            file="Source/OrganicManager.cpp"/>
+      <FILE id="Xn7op4" name="OrganicManager.h" compile="0" resource="0"
+            file="Source/OrganicManager.h"/>
+      <FILE id="hwzQPh" name="OrganicPopupComponent.cpp" compile="1" resource="0"
+            file="Source/OrganicPopupComponent.cpp"/>
+      <FILE id="k6i3q2" name="OrganicPopupComponent.h" compile="0" resource="0"
+            file="Source/OrganicPopupComponent.h"/>
+      <FILE id="t4x4de" name="PagesComponent.cpp" compile="1" resource="0"
+            file="Source/PagesComponent.cpp"/>
+      <FILE id="yJFJXr" name="PagesComponent.h" compile="0" resource="0"
+            file="Source/PagesComponent.h"/>
+      <FILE id="AbIYn3" name="PagesPanel.cpp" compile="1" resource="0" file="Source/PagesPanel.cpp"/>
+      <FILE id="hqzsLT" name="PagesPanel.h" compile="0" resource="0" file="Source/PagesPanel.h"/>
+      <FILE id="gl4N3M" name="Parameters.h" compile="0" resource="0" file="Source/Parameters.h"/>
+      <FILE id="ZU5bLN" name="PitchAlgorithm.cpp" compile="1" resource="0"
+            file="Source/PitchAlgorithm.cpp"/>
+      <FILE id="YDWUph" name="PitchAlgorithm.h" compile="0" resource="0"
+            file="Source/PitchAlgorithm.h"/>
+      <FILE id="zd6ivV" name="PlayClass.cpp" compile="1" resource="0" file="Source/PlayClass.cpp"/>
+      <FILE id="iPSRPK" name="PlayClass.h" compile="0" resource="0" file="Source/PlayClass.h"/>
+      <FILE id="Q9bd6O" name="Project.cpp" compile="1" resource="0" file="Source/Project.cpp"/>
+      <FILE id="K4APBe" name="Project.h" compile="0" resource="0" file="Source/Project.h"/>
+      <FILE id="h9z82n" name="ReverbManager.cpp" compile="1" resource="0"
+            file="Source/ReverbManager.cpp"/>
+      <FILE id="iEre05" name="ReverbManager.h" compile="0" resource="0" file="Source/ReverbManager.h"/>
+      <FILE id="J2SLZa" name="RowsPanel.cpp" compile="1" resource="0" file="Source/RowsPanel.cpp"/>
+      <FILE id="jb4Bsq" name="RowsPanel.h" compile="0" resource="0" file="Source/RowsPanel.h"/>
+      <FILE id="ls635g" name="SavedDataPopupComponent.cpp" compile="1" resource="0"
+            file="Source/SavedDataPopupComponent.cpp"/>
+      <FILE id="PeQ9aF" name="SavedDataPopupComponent.h" compile="0" resource="0"
+            file="Source/SavedDataPopupComponent.h"/>
+      <FILE id="rZqajj" name="Sound.cpp" compile="1" resource="0" file="Source/Sound.cpp"/>
+      <FILE id="G7ycUc" name="Sound.h" compile="0" resource="0" file="Source/Sound.h"/>
+      <FILE id="DLunbG" name="SoundLibrary.cpp" compile="1" resource="0"
+            file="Source/SoundLibrary.cpp"/>
+      <FILE id="ygq0xb" name="SoundLibrary.h" compile="0" resource="0" file="Source/SoundLibrary.h"/>
+      <FILE id="FMW5JS" name="SoundLibraryView.cpp" compile="1" resource="0"
+            file="Source/SoundLibraryView.cpp"/>
+      <FILE id="tjgKTj" name="SoundLibraryView.h" compile="0" resource="0"
+            file="Source/SoundLibraryView.h"/>
+      <FILE id="lu9bdd" name="SoundManager.cpp" compile="1" resource="0"
+            file="Source/SoundManager.cpp"/>
+      <FILE id="f2Q55W" name="SoundManager.h" compile="0" resource="0" file="Source/SoundManager.h"/>
+      <FILE id="vNHN5i" name="SoundPlayer.cpp" compile="1" resource="0" file="Source/SoundPlayer.cpp"/>
+      <FILE id="ZZSo1w" name="SoundPlayer.h" compile="0" resource="0" file="Source/SoundPlayer.h"/>
+      <FILE id="uBQ8KG" name="SoundView.cpp" compile="1" resource="0" file="Source/SoundView.cpp"/>
+      <FILE id="HJpFic" name="SoundView.h" compile="0" resource="0" file="Source/SoundView.h"/>
+      <FILE id="vwah0f" name="Step.cpp" compile="1" resource="0" file="Source/Step.cpp"/>
+      <FILE id="tDYbaH" name="Step.h" compile="0" resource="0" file="Source/Step.h"/>
+      <FILE id="SLm10h" name="StepGridComponent.cpp" compile="1" resource="0"
+            file="Source/StepGridComponent.cpp"/>
+      <FILE id="oqZBxT" name="StepGridComponent.h" compile="0" resource="0"
+            file="Source/StepGridComponent.h"/>
+      <FILE id="pkFwMo" name="StepPatternPanel.cpp" compile="1" resource="0"
+            file="Source/StepPatternPanel.cpp"/>
+      <FILE id="ZnQyf2" name="StepPatternPanel.h" compile="0" resource="0"
+            file="Source/StepPatternPanel.h"/>
+      <FILE id="yHsQGO" name="StepRow.cpp" compile="1" resource="0" file="Source/StepRow.cpp"/>
+      <FILE id="OLiygp" name="StepRow.h" compile="0" resource="0" file="Source/StepRow.h"/>
+      <FILE id="qZmYWC" name="StepsPanel.cpp" compile="1" resource="0" file="Source/StepsPanel.cpp"/>
+      <FILE id="UXpNAs" name="StepsPanel.h" compile="0" resource="0" file="Source/StepsPanel.h"/>
+      <FILE id="YYHdd5" name="StepView.cpp" compile="1" resource="0" file="Source/StepView.cpp"/>
+      <FILE id="q2olrr" name="StepView.h" compile="0" resource="0" file="Source/StepView.h"/>
+      <FILE id="nLjoy4" name="SwingAlgorithm.cpp" compile="1" resource="0"
+            file="Source/SwingAlgorithm.cpp"/>
+      <FILE id="Epb7Ti" name="SwingAlgorithm.h" compile="0" resource="0"
+            file="Source/SwingAlgorithm.h"/>
+      <FILE id="fi7qjY" name="Utilities.h" compile="0" resource="0" file="Source/Utilities.h"/>
+      <FILE id="dS9sY9" name="VolumeAlgorithm.cpp" compile="1" resource="0"
+            file="Source/VolumeAlgorithm.cpp"/>
+      <FILE id="ZPwVnf" name="VolumeAlgorithm.h" compile="0" resource="0"
+            file="Source/VolumeAlgorithm.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <CODEBLOCKS_LINUX targetFolder="Builds/CodeBlocksLinux">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="PSOPV-Workspace"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="PSOPV-Workspace"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </CODEBLOCKS_LINUX>
+    <CODEBLOCKS_WINDOWS targetFolder="Builds/CodeBlocksWindows">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="PSOPV-Workspace"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="PSOPV-Workspace"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </CODEBLOCKS_WINDOWS>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="PSOPV-Workspace"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="PSOPV-Workspace"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="PSOPV-Workspace"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="PSOPV-Workspace"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2017>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="PSOPV-Workspace"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="PSOPV-Workspace"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="PSOPV-Workspace"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="PSOPV-Workspace"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="PSOPV-Workspace"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="PSOPV-Workspace"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
