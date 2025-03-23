@@ -1,0 +1,96 @@
+#version 330 core
+#extension GL_OES_standard_derivatives : enable
+
+out vec4 FragColor;
+
+in vec2 TextureCoords;
+in vec3 worldCoord;
+
+uniform sampler2D GrassyTextureSample;
+uniform sampler2D rockTexture;
+
+uniform sampler2D GrassySpecularTexture;
+uniform sampler2D rockSpecularTexture;
+uniform vec3 cameraPos;
+
+struct LightProperties {
+	vec3 color;
+	vec3 ambient;
+	vec3 diffuse;
+	vec3 specular;
+};
+
+struct GlobalLight {
+	vec3 direction;
+	LightProperties prop;
+};
+
+struct Lamp {
+	vec3 posistion;
+	LightProperties prop;
+};
+
+//light sources
+uniform GlobalLight moon;
+uniform Lamp lightCube;
+
+vec4 selectTexture(float height) {
+	if (height < -70) { return texture(GrassyTextureSample, TextureCoords);}
+	else { return texture(rockTexture, TextureCoords);  }
+}
+
+vec3 getSpecular(float height) {
+	if (height < -70) {return texture(GrassySpecularTexture, TextureCoords).rgb; }
+	else { return texture(rockSpecularTexture, TextureCoords).rgb; }
+}
+
+vec3 calcNormal(vec3 coord) {
+	vec3 x_slope = dFdx(coord);
+	vec3 y_slope = dFdy(coord);
+	vec3 normal = normalize(cross(x_slope, y_slope));
+
+	return normal;
+}
+
+float calcAttenuation(float dist) {
+	float Kc = 1.0f;
+	float Kl = 0.022f;
+	float Kq = 0.0019f;
+
+	float n = Kc + (Kl * dist) + (Kq * dist * dist);
+	return (Kc / n);
+}
+
+vec3 lightInfluence(vec3 normal, vec3 worldCoord, vec3 lightD, LightProperties light){
+	float diff = max(dot(normal, lightD), 0.0);
+
+	vec3 viewD = normalize(cameraPos - worldCoord);	//view direction
+	vec3 refD = reflect(-lightD, normal);			//reflect dirrection
+	float spec = pow(max(dot(viewD, refD), 0.0), 32.0f);
+
+	vec3 specMaterial = getSpecular(worldCoord.y);
+	vec3 diffMaterial = selectTexture(worldCoord.y).rgb;
+
+	vec3 diffuse = (light.diffuse * diff * diffMaterial);
+	vec3 ambient = (light.ambient * diffMaterial);
+	vec3 specular = (light.specular * spec * specMaterial);
+
+	return (diffuse + ambient + specular) * light.color;
+}
+
+void main()
+{
+	vec3 normal = calcNormal(worldCoord);
+	vec3 Dir; 	//direction of light
+
+	//moon lighting
+	Dir = normalize(-moon.direction);
+	vec3 global = lightInfluence(normal, worldCoord, Dir, moon.prop);
+
+	//lamp
+	Dir = normalize(lightCube.posistion - worldCoord);
+	float distance = length(lightCube.posistion - worldCoord);
+	vec3 lamp = lightInfluence(normal, worldCoord, Dir, lightCube.prop) * calcAttenuation(distance);
+
+	FragColor = vec4(global + lamp, 1.0);
+};

@@ -1,0 +1,16 @@
+#version 330 core
+layout (location = 0) in vec3 aPos;
+layout (location = 1) in vec2 inTextureCoords;
+
+out vec2 TextureCoords;
+out vec3 worldCoord;
+
+uniform mat4 model;
+uniform mat4 U_MVP;
+void main()
+{
+	TextureCoords = inTextureCoords;
+	worldCoord = vec3(model * vec4(aPos, 1.0));
+	
+	gl_Position = U_MVP * vec4(aPos.xyz, 1.0);
+}
