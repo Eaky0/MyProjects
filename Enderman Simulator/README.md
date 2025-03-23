@@ -4,7 +4,7 @@ What's up, gamers!,
 
 This repository was made to contain our university project for the subject computer graphics.
 Our project involved making a small game or simulator. We decided on making an enderman simulator.
-Those fond with the game Minecraft, might know what an Enderman is. Click here for the wiki page.
+Those fond with the game Minecraft, might know what an Enderman is. Click [here](https://minecraft.fandom.com/wiki/Enderman) for the minecraft wiki page.
 In short, an enderman:
 
 - Picks up blocks at random.
