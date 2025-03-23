@@ -1,0 +1,162 @@
+#define DISPLAYTEXT "AC4 - B4 - Accelerometer"
+
+
+#include <SPI.h>
+
+#include <TFT_eSPI.h>
+
+
+SPIClass SPIADXL(HSPI);    // Make use of the HSPI spi bus for the ADXL sensor
+
+TFT_eSPI tft = TFT_eSPI(); // Constructor for the TFT library
+
+
+//ADXL345 setting parameters
+
+#define BW_RATE     0x2C  //Data rate and power mode control
+
+#define POWER_CTL   0x2D  //Power Control Register
+
+#define DATA_FORMAT 0x31  //Data format control
+
+#define DATAX0      0x32  //X-Axis Data 0
+
+
+//TTGO T-display pins (Display uses SPI3)
+
+#define MISO_ADXL  27  //GPIO27 = SDO
+
+#define MOSI_ADXL  26  //GPIO26 = SDA
+
+#define SCK_ADXL   25  //GIPO25 = SCL
+
+#define CS_ADXL    33  //GPIO33 = CS
+
+
+//Global variables
+
+char values[10] = {'\0'};
+
+int16_t x;
+
+float xg, prev_xg;
+
+void readRegister(char registerAddress, int16_t numBytes, char * values);
+void writeRegister(char registerAddress, char value);
+
+void setup() {
+
+  //Enable PIN_CS as an output and make HIGH to disable sensor
+
+  pinMode(CS_ADXL, OUTPUT);
+
+  digitalWrite(CS_ADXL, HIGH);
+
+
+  //Setup SPI-bus
+
+  SPIADXL.begin(SCK_ADXL, MISO_ADXL, MOSI_ADXL, CS_ADXL);
+
+  SPIADXL.setDataMode(SPI_MODE3);
+
+  SPIADXL.setBitOrder(MSBFIRST);
+
+  SPIADXL.setFrequency(1000000);
+
+
+  //Start Serial communication
+
+  Serial.begin(250000);
+
+
+  // set up the ADXL345
+
+  writeRegister(DATA_FORMAT, 0x03);  // ±16g 10bit
+
+  writeRegister(POWER_CTL, 0x08);    
+
+  writeRegister(BW_RATE, 0x0F);      
+
+
+  //Start Display
+
+  Serial.println("\n\nSetup Ready!\n\n");
+
+}
+
+
+void loop() {
+
+  readRegister(DATAX0, 6, values);
+
+
+  // 2Byte
+
+  x = ((int16_t)values[1] << 8) | (int16_t)values[0];
+
+
+  // 0.03125 = (16*2)/(2^10)
+
+  xg = x * 0.03125;
+
+
+  if (xg - prev_xg > 0.2 && prev_xg < -0.35) {
+    Serial.println("Moving right");
+  } else if (xg - prev_xg < -0.2 && prev_xg > 0.35) {
+    Serial.println("Moving left");
+  }
+
+  Serial.print("x = ");
+  Serial.println(xg);
+
+  prev_xg = xg; 
+
+
+  delay(100);
+
+}
+
+
+void writeRegister(char registerAddress, char value) {
+
+  digitalWrite(CS_ADXL, LOW);         //Sensor starts listening when CS is low
+
+  SPIADXL.transfer(registerAddress);  //Transfer desired register
+
+  SPIADXL.transfer(value);            //Transfer desired value
+
+  digitalWrite(CS_ADXL, HIGH);
+
+}
+
+
+void readRegister(char registerAddress, int16_t numBytes, char * values) {
+
+  //Prepare data before transmission
+
+  char address = 0x80 | registerAddress;    //Set MSB to 1, leave rest intact
+
+  if (numBytes > 1) {
+
+    address = address | 0x40;               //Set x1xx xxxx to announce multiple bytes
+
+  }
+
+
+  digitalWrite(CS_ADXL, LOW);                //Make sensor active
+
+  SPIADXL.transfer(address);                    //Activate data transfer on the sensor
+
+
+  for (int16_t i = 0; i < numBytes; i++) {  //Write 0x00 for as many times you want to collect data.
+
+    values[i] = SPIADXL.transfer(0x00);
+
+  }
+
+
+  digitalWrite(CS_ADXL, HIGH);               //Disable sensor communication
+
+}
+
+

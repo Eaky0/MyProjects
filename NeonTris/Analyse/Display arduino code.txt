@@ -1,0 +1,3 @@
+https://www.youtube.com/watch?v=rq5yPJbX_uk
+
+https://arduino-er.blogspot.com/2020/06/esp32-devkitc-28inch-240x320-spi-tft.html

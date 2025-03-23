@@ -1,0 +1,26 @@
+DELEK PROJECT PLANNING:
+
+1: Onderdelen bekijken, begrijpen en herhalen. // 28-03-2024
+- Knop
+- Accelerometer
+- Joystick (2 potentiometers + knop)
+- Display
+
+2: Simpele JavaFX GUI programma (LED aan/uit) kunnen viewen met display // 28-03-2024
+
+3: Gegevens verzenden en ontvangen tussen JavaFX en Arduino. // 02-04-2024
+
+4: Tic Tac Toe JavaFX programma maken. // 02-04-2024
+
+5: Interactie tussen Tic Tac Toe en Arduino o.a. functionering . // 05-04-2024
+- Knop dient als startknop.
+- Bewegingen kunnen tracken.
+- Interrupt implementeren (LED lamp switch voor beurten)
+ 
+6: Connectiviteitsfunctie (Bluetooth) opstellen. // 10-04-2024
+
+7: Schema maken met KiCad // xx-xx-2024 (Afhankelijk van deadline)
+
+
+
+

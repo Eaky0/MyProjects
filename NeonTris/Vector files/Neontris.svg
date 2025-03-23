@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="406mm"
+   height="403mm"
+   viewBox="0 0 406 403"
+   version="1.1"
+   preserveAspectRatio="xMidYMid meet"
+   id="svg1"
+   sodipodi:docname="Neontris.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="true"
+     inkscape:zoom="0.72142876"
+     inkscape:cx="661.88101"
+     inkscape:cy="1104.0591"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <g
+     id="svgGroup"
+     stroke-linecap="round"
+     fill-rule="evenodd"
+     font-size="12px"
+     stroke="#000"
+     stroke-width="0.25mm"
+     fill="none"
+     style="fill:none;stroke:#000000;stroke-width:0.25mm"
+     transform="matrix(0,0.98084001,-1.0002233,0,405.01915,2.1301486)">
+    <path
+       d="m 0,353 v 15.625 h 3 v 18.75 H 0 V 403 h 21.875 v -3 h 18.75 v 3 h 18.75 v -3 h 18.75 v 3 H 96.875 100 v -15.625 h -3 v -18.75 h 3 V 353 H 78.125 v 3 h -18.75 v -3 h -18.75 v 3 h -18.75 v -3 H 3.125 Z"
+       id="front_outsideCutPath"
+       stroke="#00FFFF"
+       stroke-width="0.1"
+       style="stroke:#00ffff;stroke-width:0.1"
+       vector-effect="non-scaling-stroke" />
+    <path
+       d="m 106,353 v 15.625 h -3 v 18.75 h 3 V 403 h 12.625 v -3 h 18.75 v 3 h 18.75 v -3 h 18.75 v 3 h 18.75 v -3 h 18.75 v 3 h 18.75 v -3 h 18.75 v 3 h 18.75 v -3 h 18.75 v 3 H 300 v -15.625 h 3 v -18.75 h -3 V 353 h -12.625 v 3 h -18.75 v -3 h -18.75 v 3 h -18.75 v -3 h -18.75 v 3 h -18.75 v -3 h -18.75 v 3 h -18.75 v -3 h -18.75 v 3 h -18.75 v -3 z"
+       id="left_outsideCutPath"
+       stroke="#00FFFF"
+       stroke-width="0.1"
+       style="stroke:#00ffff;stroke-width:0.1"
+       vector-effect="non-scaling-stroke" />
+    <path
+       d="m 309,206 v 12.625 h -3 v 18.75 h 3 v 18.75 h -3 v 18.75 h 3 v 18.75 h -3 v 18.75 h 3 v 18.75 h -3 v 18.75 h 3 v 18.75 h -3 v 18.75 h 3 V 400 h 18.875 v 3 h 18.75 v -3 h 18.75 v 3 h 18.75 v -3 h 18.75 0.125 v -12.625 h 3 v -18.75 h -3 v -18.75 h 3 v -18.75 h -3 v -18.75 h 3 v -18.75 h -3 v -18.75 h 3 v -18.75 h -3 v -18.75 h 3 v -18.75 h -3 V 206 h -18.875 v -3 h -18.75 v 3 h -18.75 v -3 h -18.75 v 3 h -18.75 z"
+       id="top_outsideCutPath"
+       stroke="#00FFFF"
+       stroke-width="0.1"
+       style="stroke:#00ffff;stroke-width:0.1"
+       vector-effect="non-scaling-stroke" />
+    <path
+       d="m 0,300 v 15.625 h 3 v 18.75 H 0 V 350 h 21.875 v -3 h 18.75 v 3 h 18.75 v -3 h 18.75 v 3 H 96.875 100 v -15.625 h -3 v -18.75 h 3 V 300 H 78.125 v 3 h -18.75 v -3 h -18.75 v 3 h -18.75 v -3 H 3.125 Z"
+       id="back_outsideCutPath"
+       stroke="#00FFFF"
+       stroke-width="0.1"
+       style="stroke:#00ffff;stroke-width:0.1"
+       vector-effect="non-scaling-stroke" />
+    <path
+       d="m 106,300 v 15.625 h -3 v 18.75 h 3 V 350 h 12.625 v -3 h 18.75 v 3 h 18.75 v -3 h 18.75 v 3 h 18.75 v -3 h 18.75 v 3 h 18.75 v -3 h 18.75 v 3 h 18.75 v -3 h 18.75 v 3 H 300 v -15.625 h 3 v -18.75 h -3 V 300 h -12.625 v 3 h -18.75 v -3 h -18.75 v 3 h -18.75 v -3 h -18.75 v 3 h -18.75 v -3 h -18.75 v 3 h -18.75 v -3 h -18.75 v 3 h -18.75 v -3 z"
+       id="right_outsideCutPath"
+       stroke="#00FFFF"
+       stroke-width="0.1"
+       style="stroke:#00ffff;stroke-width:0.1"
+       vector-effect="non-scaling-stroke" />
+    <path
+       d="m 309,3 v 12.625 h -3 v 18.75 h 3 v 18.75 h -3 v 18.75 h 3 v 18.75 h -3 v 18.75 h 3 v 18.75 h -3 v 18.75 h 3 v 18.75 h -3 v 18.75 h 3 V 197 h 18.875 v 3 h 18.75 v -3 h 18.75 v 3 h 18.75 v -3 h 18.75 0.125 v -12.625 h 3 v -18.75 h -3 v -18.75 h 3 v -18.75 h -3 v -18.75 h 3 v -18.75 h -3 v -18.75 h 3 v -18.75 h -3 v -18.75 h 3 v -18.75 h -3 V 3 H 384.125 V 0 h -18.75 v 3 h -18.75 V 0 h -18.75 v 3 h -18.75 z"
+       id="bottom_outsideCutPath"
+       stroke="#00FFFF"
+       stroke-width="0.1"
+       style="stroke:#00ffff;stroke-width:0.1"
+       vector-effect="non-scaling-stroke" />
+  </g>
+  <rect
+     style="fill:#0000ff;fill-opacity:0;stroke:#0000ff;stroke-width:0.0148807;stroke-dasharray:none;stroke-opacity:1"
+     id="rect4"
+     width="69.985115"
+     height="49.985119"
+     x="67.132645"
+     y="330.22519" />
+  <circle
+     style="fill:#0000ff;fill-opacity:0;stroke:#0000ff;stroke-width:0.0205974;stroke-dasharray:none;stroke-opacity:1"
+     id="path4"
+     cx="166.26167"
+     cy="350"
+     r="9.9897013" />
+  <circle
+     style="fill:#0000ff;fill-opacity:0;stroke:#0000ff;stroke-width:0.02;stroke-dasharray:none;stroke-opacity:1"
+     id="path5"
+     cx="85.635902"
+     cy="317.4213"
+     r="5" />
+  <circle
+     style="fill:#0000ff;fill-opacity:0;stroke:#0000ff;stroke-width:0.02;stroke-dasharray:none;stroke-opacity:1"
+     id="path5-4"
+     cx="116.94184"
+     cy="317.58508"
+     r="5" />
+  <circle
+     style="fill:#0000ff;fill-opacity:0;stroke:#0000ff;stroke-width:0.00999337;stroke-dasharray:none;stroke-opacity:1"
+     id="path6"
+     cx="36.86673"
+     cy="349.5"
+     r="7.4950032" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.8793px;font-family:'Cascadia Mono';-inkscape-font-specification:'Cascadia Mono Bold';fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.0281326;stroke-dasharray:none;stroke-opacity:1"
+     x="276.89838"
+     y="335.41803"
+     id="text6"
+     transform="scale(0.94889489,1.0538575)"><tspan
+       id="tspan6"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.8793px;font-family:'Cascadia Mono';-inkscape-font-specification:'Cascadia Mono Bold';fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.0281326;stroke-opacity:1"
+       x="276.89838"
+       y="335.41803"
+       sodipodi:role="line">Neon_Tris</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.2583px;font-family:'Cascadia Mono';-inkscape-font-specification:'Cascadia Mono Bold';fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.0199459;stroke-dasharray:none;stroke-opacity:1"
+     x="111.23332"
+     y="358.50327"
+     id="text7"
+     transform="scale(1.1175402,0.89482238)"><tspan
+       sodipodi:role="line"
+       id="tspan7"
+       style="stroke-width:0.0199459"
+       x="111.23332"
+       y="358.50327">X</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.4383px;font-family:'Cascadia Mono';-inkscape-font-specification:'Cascadia Mono';fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.0397528;stroke-dasharray:none;stroke-opacity:1"
+     x="64.957726"
+     y="368.45474"
+     id="text8"
+     transform="scale(1.1511262,0.86871445)"><tspan
+       id="tspan8"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Cascadia Mono';-inkscape-font-specification:'Cascadia Mono';stroke-width:0.0397528"
+       x="64.957726"
+       y="368.45474"
+       sodipodi:role="line" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Cascadia Mono';-inkscape-font-specification:'Cascadia Mono';fill:#d40000;fill-opacity:0;stroke:#d40000;stroke-width:0.02;stroke-dasharray:none;stroke-opacity:0"
+     x="71.149323"
+     y="316.87119"
+     id="text9"><tspan
+       id="tspan9"
+       style="stroke-width:0.02"
+       sodipodi:role="line"></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;font-family:'Cascadia Mono';-inkscape-font-specification:'Cascadia Mono';fill:#d40000;fill-opacity:1;stroke:#d40000;stroke-width:0.02;stroke-dasharray:none;stroke-opacity:0"
+     x="-34.841164"
+     y="462.47058"
+     id="text10"><tspan
+       sodipodi:role="line"
+       id="tspan10"
+       style="stroke:#d40000;stroke-width:0.02;stroke-opacity:0;fill:#d40000;fill-opacity:1"
+       x="-34.841164"
+       y="462.47058" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.1582px;font-family:'Cascadia Mono';-inkscape-font-specification:'Cascadia Mono';fill:#000000;fill-opacity:1;stroke:#d40000;stroke-width:0.0286268;stroke-dasharray:none;stroke-opacity:0"
+     x="63.285721"
+     y="349.42853"
+     id="text11"
+     transform="scale(1.0887341,0.91849791)"><tspan
+       sodipodi:role="line"
+       id="tspan11"
+       style="fill:#000000;fill-opacity:1;stroke-width:0.0286268"
+       x="63.285721"
+       y="349.42853">o</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93745px;font-family:'Cascadia Mono';-inkscape-font-specification:'Cascadia Mono';fill:#000000;fill-opacity:1;stroke:#d40000;stroke-width:0.0173717;stroke-dasharray:none;stroke-opacity:0"
+     x="312.74365"
+     y="330.33279"
+     id="text12"
+     transform="scale(0.86856529,1.1513239)"><tspan
+       sodipodi:role="line"
+       id="tspan12"
+       style="font-size:4.93744px;stroke-width:0.0173717;fill:#000000"
+       x="312.74365"
+       y="330.33279">SSID: Neontris-Connection</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;font-family:'Cascadia Mono';-inkscape-font-specification:'Cascadia Mono';fill:#000000;fill-opacity:1;stroke:#d40000;stroke-width:0.02;stroke-dasharray:none;stroke-opacity:0"
+     x="273.96158"
+     y="386.55353"
+     id="text13"><tspan
+       sodipodi:role="line"
+       id="tspan13"
+       style="font-size:4.58611px;fill:#000000;stroke-width:0.02"
+       x="273.96158"
+       y="386.55353">Password: TimeToPlay</tspan></text>
+</svg>

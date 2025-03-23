@@ -1,0 +1,53 @@
+#include <Arduino.h>
+#include <TFT_eSPI.h>
+
+
+TFT_eSPI tft = TFT_eSPI();       // Constructor for the TFT library
+
+/*
+ * Created by ArduinoGetStarted.com
+ *
+ * This example code is in the public domain
+ *
+ * Tutorial page: https://arduinogetstarted.com/tutorials/arduino-joystick
+ */
+
+#define VRX_PIN  36 // Arduino pin connected to VRX pin
+#define VRY_PIN  37 // Arduino pin connected to VRY pin
+
+int xValue = 0; // To store value of the X axis
+int yValue = 0; // To store value of the Y axis
+
+
+
+void setup() {
+  Serial.begin(9600) ;
+  pinMode(VRX_PIN, INPUT);
+  pinMode(VRY_PIN, INPUT);
+}
+
+void loop() {
+  // read analog X and Y analog values
+  xValue = analogRead(VRX_PIN);
+  yValue = analogRead(VRY_PIN);
+
+
+  if (0 < xValue < 4095 && yValue == 0){
+    Serial.println("Moving up");
+  }
+
+  if (0 < yValue < 4095 && xValue == 0){
+    Serial.println("Moving left");
+  }
+
+  if (0 < yValue < 4095 && xValue == 4095){
+    Serial.println("Moving right");
+  }
+
+  if (0 < xValue < 4095 && yValue == 4095){
+    Serial.println("Moving down");
+  }
+
+  delay(1000);
+
+}

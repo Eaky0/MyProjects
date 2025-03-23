@@ -1,0 +1,55 @@
+#include <Arduino.h>
+#include <TFT_eSPI.h>
+
+
+TFT_eSPI tft = TFT_eSPI();       // Constructor for the TFT library
+int buttonPin = 2; //GPIO 2 knop
+
+int LedPin1 = 12; //Leds
+int LedPin2 = 13;
+
+bool Led1State = true;
+bool Led2State = false;
+
+unsigned long prev_switch_time;
+bool State = true;
+
+void printTitle();
+void DebounceFix();
+
+void setup() {
+  tft.init();
+  tft.setRotation(1);
+  Serial.begin(9600);
+
+  pinMode(LedPin1, OUTPUT);
+  pinMode(LedPin2, OUTPUT);
+  pinMode(buttonPin, INPUT_PULLUP);
+  attachInterrupt(buttonPin, DebounceFix, RISING);
+  printTitle();
+}
+
+void loop() {
+    digitalWrite(LedPin1, Led1State);
+    digitalWrite(LedPin2, Led2State);
+}
+
+// put function definitions here:
+void printTitle() {
+  tft.fillScreen(TFT_BLACK);  
+  tft.setCursor(20, 20, 4);   
+  tft.setTextColor(TFT_WHITE); 
+  tft.println("Test?");
+}
+
+void IRAM_ATTR DebounceFix() {
+  unsigned long switch_time = millis();
+  if (switch_time - prev_switch_time > 200)
+  {
+    prev_switch_time = switch_time;
+
+    Led1State = !Led1State;
+    Led2State = !Led2State;
+  }
+
+}
