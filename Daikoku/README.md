@@ -1,6 +1,6 @@
 # Daikoku, A food trucker web application
 
-<DUTCH>
+DUTCH 🇳🇱
 Dag allemaal!
 
 In deze README file, volgen er instructies i.v.m. het runnen van de foodtrucker project web-applicatie:
@@ -28,7 +28,7 @@ Met vriendelijke groeten,
 
 Atakan Kumas
 
-<ENGLISH>
+ENGLISH 🇬🇧
 Hello everyone!
 
 In this README file, you will find instructions on how to run the FoodTrucker project web application.
